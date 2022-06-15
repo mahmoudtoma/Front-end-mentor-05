@@ -1,0 +1,151 @@
+/* Start Main Global Browser */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* Small */
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+/* End Main Global Browser */
+/* Start Main Container & box */
+.img-top{
+    position: absolute;
+    left: -15%;
+    top: -68%;
+    z-index: -1;
+}
+.img-bottom{
+    position: absolute;
+    right: -11%;
+    bottom: -85%;
+    width: 65%;
+    z-index: -1;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Main Container & box */
+/* Start Box */
+.template .container .box{
+    height: 335px;
+    width: 335px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px #888888;
+}
+.template .container .box .cover img{
+    width: 335px;
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+}
+.template .container .box .image{
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.template .container .box .image img{
+    width: 70px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    z-index: 5;
+    top: -35px;
+}
+.template .container .box .text{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    border-bottom: 0.2px solid rgba(152, 151, 151,0.3);
+}
+.template .container .box .text h4 span{
+    font-size: 14px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.template .container .box .text p{
+    margin-top: -10px;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 400;
+}
+.template .container .box .price{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.template .container .box .price span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.template .container .box .price .culom{
+    text-align: center;
+}
+.template .container .box .price p{
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.7;
+}
+/* End Box */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
